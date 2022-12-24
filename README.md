@@ -8,3 +8,4 @@ Script with test key data: [powervs_image_capture_test.sh](https://github.com/em
 
 ### Prerequisities and Guide:
 
+1. Install the IBM Cloud CLI: https://cloud.ibm.com/docs/cli?topic=cli-getting-started
