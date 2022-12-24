@@ -9,3 +9,4 @@ Script with test key data: [powervs_image_capture_test.sh](https://github.com/em
 ### Prerequisities and Guide:
 
 1. Install the IBM Cloud CLI: https://cloud.ibm.com/docs/cli?topic=cli-getting-started
+2. Create an API key to use to sign on (this will go into the `IBM_CLOUD_API_KEY` variable in the script): https://cloud.ibm.com/docs/account?topic=account-userapikey&interface=ui#create_user_key
