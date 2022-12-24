@@ -1,6 +1,6 @@
 # PowerVS Image Capture
 
-Script to automate capturing images of [PowerVS](https://www.ibm.com/products/power-virtual-server) LPARs on [IBM Cloud](https://www.ibm.com/cloud) and storing them to [IBM Cloud Object Storage](https://www.ibm.com/ca-en/cloud/object-storage).
+Script to automate capturing images of [PowerVS](https://www.ibm.com/products/power-virtual-server) LPARs on [IBM Cloud](https://www.ibm.com/cloud) and storing them to [IBM Cloud Object Storage](https://www.ibm.com/ca-en/cloud/object-storage). Each image name has the current unix time appended to the name to ensure uniqueness in object names.
 
 Main script to edit is: [powervs_image_capture.sh](https://github.com/emaadparacha/PowerVS-Image-Capture/blob/main/powervs_image_capture.sh)
 
