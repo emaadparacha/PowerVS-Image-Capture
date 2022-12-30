@@ -16,6 +16,7 @@ Script with test key data: [powervs_image_capture_test.sh](https://github.com/em
 6. Use `ibmcloud pi instances` to list the instances and their IDs. Copy the ID of the LPAR that you want to create the image for. This will go into the `LPAR_ID` variable
 7. Go to Cloud Object Storage and create a bucket. Then once the bucket is created, go to "Service Credentials" on the left side menu, click "Create New Credentials", name the credentials what you want, but keep in mind to click "Advanced Options" and select HMAC "On". You will get a JSON output that you can copy the Access Key and Secret from, and input that along with the bucket name (you can also add a folder after the bucket name if you wish) and bucket region to the script in the COS defines section: https://cloud.ibm.com/docs/cloud-object-storage?topic=cloud-object-storage-uhc-hmac-credentials-main
 8. `ibmcloud pi instance-capture` is used to take an image and store it in COS. Again this is already in the script, but if you wish to check out the CLI doc, it is here: https://cloud.ibm.com/docs/power-iaas-cli-plugin?topic=power-iaas-cli-plugin-power-iaas-cli-reference#ibmcloud-pi-instance-capture
+9. (Bonus) You can use this script to automate capturing VMs since the name of the backup includes a unique Unix time in it, allowing you to get a unique backup everytime.
 
 ### Further Help
 * IBM Cloud CLI Docs: https://cloud.ibm.com/docs/cli
